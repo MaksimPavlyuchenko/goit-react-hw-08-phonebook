@@ -14,7 +14,7 @@ const UserMenu = () => {
 
   const handlerClickLogOut = () => {
     dispatch(userLogOut());
-    navigate('/login', { replace: true });
+    navigate('/', { replace: true });
   };
   return (
     <WrapperLogOut>
