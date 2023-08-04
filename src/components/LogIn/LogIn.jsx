@@ -1,6 +1,6 @@
 import React from 'react';
 import { useDispatch } from 'react-redux';
-import { userLogIn } from 'redux/operationsUser';
+import { userLogIn } from 'redux/autorization/operationsUser';
 
 import { Input, Label, Button, LogInForm, LogInHeader } from './Login.styled';
 

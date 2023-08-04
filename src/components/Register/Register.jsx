@@ -1,7 +1,7 @@
 import React from 'react';
 import { useDispatch } from 'react-redux';
 
-import { userRegister } from 'redux/operationsUser';
+import { userRegister } from 'redux/autorization/operationsUser';
 
 import {
   RegistrationForm,

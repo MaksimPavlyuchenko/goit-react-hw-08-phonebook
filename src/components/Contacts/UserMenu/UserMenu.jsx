@@ -2,7 +2,7 @@ import React from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { useNavigate } from 'react-router-dom';
 
-import { userLogOut } from 'redux/operationsUser';
+import { userLogOut } from 'redux/autorization/operationsUser';
 import { selectEmail } from 'redux/selectors';
 
 import { WrapperLogOut, ButtonLogOut } from './UserMenu.styled';

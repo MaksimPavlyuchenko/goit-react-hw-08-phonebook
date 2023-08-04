@@ -12,9 +12,9 @@ import {
 } from 'redux-persist';
 import storage from 'redux-persist/lib/storage'; // defaults to localStorage for web
 
-import { filterReduser } from './filterSlice';
-import { contactReduser } from './contactsSlice';
-import { userReduser } from './userSlice';
+import { filterReduser } from './filter/filterSlice';
+import { contactReduser } from './contacts/contactsSlice';
+import { userReduser } from './autorization/userSlice';
 
 const persistConfig = {
   key: 'auhtentific',

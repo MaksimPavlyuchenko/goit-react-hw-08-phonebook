@@ -7,7 +7,7 @@ import RestrictedRoute from './RestrictedRoute/RestrictedRoute';
 import PrivateRoute from './PrivateRoute/PrivateRoute';
 
 import { selectRefresh } from 'redux/selectors';
-import { userRefresh } from 'redux/operationsUser';
+import { userRefresh } from 'redux/autorization/operationsUser';
 
 const Contacts = lazy(() => import('./Contacts/Contacts'));
 const LogIn = lazy(() => import('./LogIn/LogIn'));

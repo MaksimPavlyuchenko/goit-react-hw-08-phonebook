@@ -3,7 +3,7 @@ import { useEffect } from 'react';
 import { Report } from 'notiflix/build/notiflix-report-aio';
 
 import { selectContacts, selectVisibleContacts } from 'redux/selectors';
-import { deleteContact, fetchContacts } from 'redux/operations';
+import { deleteContact, fetchContacts } from 'redux/contacts/operations';
 
 import { List, ListItem, Button, HeaderList } from './ContactList.styled';
 
